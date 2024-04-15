@@ -1,0 +1,6 @@
+https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+--> http://people.csail.mit.edu/rivest/Rsapaper.pdf
+
+https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm
+
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Mathematics/Extended_Euclidean_algorithm (*?)
