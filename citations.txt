@@ -3,4 +3,4 @@ https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
 https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm
 
-https://en.wikibooks.org/wiki/Algorithm_Implementation/Mathematics/Extended_Euclidean_algorithm (*?)
+https://stackoverflow.com/questions/18815820/how-to-convert-string-to-binary
