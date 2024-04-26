@@ -148,14 +148,17 @@ if __name__ == "__main__":
     print(f"Public key: {key['public']}")
     print(f"Private key: {key['private']}\n")
     time.sleep(1)
-    message = input("Input a message to encrypt: ")
+    message = input("Input a brief message to encrypt: ")
     encrypted = encrypt(message, key["public"])
+    if encrypted is None:
+        import sys
+        sys.exit()
     print("Message encrypted using public key.")
     print(f"Encrypted message: {encrypted}\n")
     time.sleep(1)
     private = input("Provide a private key to decrypt the message (press <RETURN> to automatically use that given): ")
     if private != "":
-        unlock = {"public":key["public"], "private":int(private)}
+        unlock = {"public": key["public"], "private": int(private)}
     else:
         unlock = key
     print("Decrypting message using public key and provided private key...")
